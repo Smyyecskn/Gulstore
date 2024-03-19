@@ -1,4 +1,2 @@
-Yüklü Paketler
-- tailwindcss
-- axios
-- react-router-dom
+# cskn store
+## https://cskn-store-with-react.netlify.app/
