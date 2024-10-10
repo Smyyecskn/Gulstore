@@ -26,7 +26,7 @@ const Login = () => {
             🌹Gül Store
           </h1>
         </div>
-        <div className="my-2">
+        <div className="my-2 ">
           <h3 className="font-montserrat font-[600] text-[22px] uppercase text-black">
             SIGN IN
           </h3>
@@ -47,7 +47,7 @@ const Login = () => {
               Email
             </label>
             <input
-              className="login-input" //ortak özellikleri @layer components altında topladık
+              className="login-input hover:placeholder:text-black" //ortak özellikleri @layer components altında topladık
               type="email"
               placeholder="Enter your email"
               value={email}
@@ -64,7 +64,7 @@ const Login = () => {
               Password
             </label>
             <input
-              className="login-input"
+              className="login-input hover:placeholder:text-black"
               type="password"
               name="pass"
               value={pass}
@@ -75,7 +75,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="bg-main h-[44px] text-label text-white uppercase hover:opacity-90 rounded-[4px]"
+            className="bg-main h-[44px] text-label text-white uppercase hover:opacity-80 rounded-[4px] shadow-xl"
           >
             Sign In
           </button>
