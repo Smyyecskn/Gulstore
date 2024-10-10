@@ -37,7 +37,7 @@ const Products = () => {
       {loading ? (
         <Loading />
       ) : products.length ? (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 ">
           {products?.map((item, id) => (
             <ProductCard key={id} item={item} />
           ))}
