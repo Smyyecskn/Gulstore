@@ -1,7 +1,4 @@
-import React from "react";
-
 const About = () => {
-// console.log("ali");
   const posts = [
     {
       title: "What is SaaS? Software as a Service Explained",
