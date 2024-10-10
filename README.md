@@ -1,2 +1,1 @@
-WEB SITES 
-https://gulstore.netlify.app
+ https://gulstore.netlify.app
